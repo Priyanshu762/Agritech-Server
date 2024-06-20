@@ -24,7 +24,7 @@ app.use(cookieParser());
 // CORS middleware
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: "*",
         credentials: true,
     })
 );
