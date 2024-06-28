@@ -24,7 +24,7 @@ app.use(cookieParser());
 // CORS middleware
 app.use(
     cors({
-        origin: "*",
+        origin: "https://agri-tech-project.vercel.app/",
         credentials: true,
     })
 );
